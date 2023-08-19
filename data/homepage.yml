@@ -1,0 +1,153 @@
+# homepage
+homepage:
+  head:
+    title: "Home | Amir Al Sadi"
+# showcase
+showcase:
+  enable: true
+  title: "Amir Al Sadi"
+  subtitle: ":graduation_cap: PhD Candidate @ UniBo"
+  description: "Networking and Security enthusiast"
+  image:
+    alt: "My face"
+    x: "images/amir_shaped.png"
+    _2x: "images/amir_shaped.png"
+  imageMobile:
+    alt: "My face"
+    x: "images/amir_shaped.png"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Email me!"
+    URL: "mailto:amir.alsadi@unibo.it"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/amiralsadi/"
+
+    - icon: "github"
+      URL: "https://github.com/alsadiamir"
+
+
+# publications
+publications:
+  enable: true
+  title: "Publications"
+  items:
+    - venue: EuCNC/6G Summit
+      venuelink: https://www.eucnc.eu/
+      year: 2021
+      title: "A security monitoring architecture based on data plane programmability"
+      authors: 
+      - author: 'Amir Al Sadi'
+      - author: ', Davide Berardi'
+      - author: ', Franco Callegati'
+      - author: ', Andrea Melis' 
+      - author: ' and Marco Prandini'
+      buttons:
+        - icon: "icon-arrow-right"
+          btnText: PDF
+          URL: papers/eucnc21.pdf
+        - icon: "icon-arrow-right"
+          btnText: link
+          URL: https://ieeexplore.ieee.org/abstract/document/9482549/
+        
+    
+    - venue: "University of Bologna"
+      year: "2022-now"
+      title: "PhD Candidate in  Network Security, expected graduation on 2025 (hopefully 🤞)"
+
+    - venue: "University of Bologna"
+      year: "2022-now"
+      title: "PhD Candidate in  Network Security, expected graduation on 2025 (hopefully 🤞)"
+
+    - venue: "University of Bologna"
+      year: "2022-now"
+      title: "PhD Candidate in  Network Security, expected graduation on 2025 (hopefully 🤞)"
+
+    - venue: "University of Bologna"
+      year: "2022-now"
+      title: "PhD Candidate in  Network Security, expected graduation on 2025 (hopefully 🤞)"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "University of Bologna"
+      year: "2022-now"
+      degree: "PhD Candidate in  Network Security, expected graduation on 2025 (hopefully 🤞)"
+    
+    - university: "University of Bologna"
+      year: "2019-2021"
+      degree: "Master of Science (MSc), Computer Engineering"
+
+    - university: "University of Bologna"
+      year: "2016-2019"
+      degree: "Bachelor of Science (BSc), Computer Engineering"
+
+
+
+# experience
+# experience:
+#   enable: true
+#   title: "Experience"
+#   description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
+#   button:
+#     icon: "icon-linkedin-fill"
+#     btnText: "Linkedin"
+#     URL: "https://www.linkedin.com/company/radity/"
+#   button2:
+#     icon: "icon-profile-fill"
+#     btnText: "Download My Resume"
+#     URL: "#"
+
+#   items:
+#     - title: "Sr. Front-End Developer"
+#       company: "Radity"
+#       duration: "Feb 2011 - Sep 2019"
+
+#     - title: "Sr. Front-End Developer"
+#       company: "Textic"
+#       duration: "Apr 2010 - Jan 2011"
+
+#     - title: "Jr. Front-End Developer"
+#       company: "Cyberse"
+#       duration: "Jun 2009 - Mar 2010"
+
+
+#   works:
+#     - title: "Radity Finance - UI Kit"
+#       description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+#       button:
+#         icon: "icon-arrow-right"
+#         btnText: "Case Study"
+#         URL: "#"
+#       image:
+#         x: "img/works/radity-finance.jpg"
+#         _2x: "img/works/radity-finance@2x.jpg"
+#       is_even: true
+
+#     - title: "Swiss Fintech Website"
+#       description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+#       button:
+#         icon: "icon-arrow-right"
+#         btnText: "Case Study"
+#         URL: "#"
+#       image:
+#         x: "img/works/swissfintech.jpg"
+#         _2x: "img/works/swissfintech@2x.jpg"
+#       is_even: false
+
+#     - title: "Robo Advisor"
+#       description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+#       button:
+#         icon: "icon-arrow-right"
+#         btnText: "Case Study"
+#         URL: "#"
+#       image:
+#         x: "img/works/robo-advisor.jpg"
+#         _2x: "img/works/robo-advisor@2x.jpg"
+#       is_even: true
+
+

@@ -1,0 +1,50 @@
+{{ if .Site.Data.homepage.publications.enable }}
+<section class="section section--border-bottom rad-animation-group" id="publications">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>{{ .Site.Data.homepage.publications.title }}</h2>
+                <div class="row pt-2 pt-md-4">
+                    {{ range .Site.Data.homepage.publications.items }}
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="education">
+                            <div class="education__date"><i style="font-size: 20px;">{{ .year }}</i></div>
+                            <div class="education__title"><a href="{{ .venuelink }}">{{ .venue }}</a></div>
+                            <div class="education__degree" style="font-size: 18px;">
+                                {{ .title }}
+                                </br>
+                            </div> 
+                            <div class="education__degree">
+                                <b>
+                                    {{ range .authors }}
+                                        {{ if eq .author "Amir Al Sadi" }}
+                                            <u>{{ .author }}</u>
+                                        {{ else }}
+                                        {{ .author }}
+                                        {{ end }}
+                                    {{ end }}
+                                </b>
+                            </div>
+                            <div class="row platform-links education__degree">  
+                                <div class="col-12">  
+                                    {{ range .buttons }}                               
+                                    <a
+                                        href="{{ .URL }}"
+                                        class="btn btn-primary"
+                                        >
+                                        <i class="{{ .icon }}"></i>
+                                        {{ .btnText }}
+                                    </a>
+                                    {{ end }}
+                                </div>                         
+                            </div>
+                        </div>
+                    </div>
+                
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
